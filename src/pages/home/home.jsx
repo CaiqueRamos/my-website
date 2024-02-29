@@ -11,9 +11,6 @@ function Home() {
       <Stack>
         <HomeProfile />
       </Stack>
-      <Text>oie</Text>
-      <Text>oie</Text>
-      <Text>oie</Text>
     </Stack>
   );
 }
