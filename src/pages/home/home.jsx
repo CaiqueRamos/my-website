@@ -1,4 +1,4 @@
-import { Stack, Text } from '@chakra-ui/layout';
+import { Stack } from '@chakra-ui/layout';
 import HomeProfile from '../../ui/home-profile';
 import HomeProfileApresentation from '../../ui/components/home-profile-apresentation/home-profile-apresentation';
 
