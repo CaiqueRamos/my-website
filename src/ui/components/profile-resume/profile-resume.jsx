@@ -16,11 +16,12 @@ function ProfileResume() {
       alignItems={"normal"}
       background={"#b9dbff1a"}
       rounded={"100px"}
+      minH={"40em"}
     >
-      <Stack>
-        <Stack px="90" py="180">
+      <VStack justifyContent={"center"} px="5em">
+        <Stack>
           <ScrollingTextAnimation />
-          <Stack pl="17px">
+          <Stack>
             <Text maxW={"650px"}>
               Desenvolvedor de soluções digitais, atuando em colaboração
               multidisciplinar para assegurar uma experiência de usuário
@@ -51,7 +52,7 @@ function ProfileResume() {
             </Stack>
           </Stack>
         </Stack>
-      </Stack>
+      </VStack>
       <Stack>
         <VStack>
           <Image src={myProfile} alt="imagem pessoal" objectFit={"contain"} />
