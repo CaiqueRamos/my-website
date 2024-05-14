@@ -9,7 +9,7 @@ function HomeProfile() {
     <Stack>
       <ProfileResume />
       <HomeProfileGraduation />
-      <Timeline />
+      {/* <Timeline /> */}
       <Flex w="100%" justifyContent={"center"} my="10">
         <Text fontFamily={" sans-serif"} _hover={{ color: "gray" }}>
           Para mais informações -{" "}
