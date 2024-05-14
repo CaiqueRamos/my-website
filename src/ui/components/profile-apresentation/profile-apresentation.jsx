@@ -50,7 +50,12 @@ function HomeProfileApresentation() {
       <ScrollIndicator />
     </Stack>
   ) : (
-    <Stack h="100vh" alignItems={"center"} justifyContent={"space-between"}>
+    <Stack
+      h="100vh"
+      alignItems={"center"}
+      justifyContent={"space-between"}
+      pb="3em"
+    >
       <Stack></Stack>
       <Stack
         fontFamily={"Bebas Neue, sans-serif"}
