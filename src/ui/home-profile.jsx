@@ -1,17 +1,18 @@
-import { Stack, Flex, Text } from '@chakra-ui/layout';
-import HomeProfilePrincipalContent from './components/home-profille-principal-content/home-profile-principal-content';
-import HomeProfileGraduation from './components/home-profile-graduation/HomeProfileGraduation';
-import Timeline from './components/home-profile-timeline-carousel/Timeline';
+import { Stack, Flex, Text } from "@chakra-ui/layout";
+
+import ProfileResume from "./components/profile-resume/profile-resume";
+import HomeProfileGraduation from "./components/profile-graduation/HomeProfileGraduation";
+import Timeline from "./components/profile-timeline-carousel/Timeline";
 
 function HomeProfile() {
   return (
     <Stack>
-      <HomeProfilePrincipalContent />
+      <ProfileResume />
       <HomeProfileGraduation />
       <Timeline />
-      <Flex w="100%" justifyContent={'center'} my="10">
-        <Text fontFamily={' sans-serif'} _hover={{ color: 'gray' }}>
-          Para mais informações -{' '}
+      <Flex w="100%" justifyContent={"center"} my="10">
+        <Text fontFamily={" sans-serif"} _hover={{ color: "gray" }}>
+          Para mais informações -{" "}
           <a href="mailto:caique.dev@hotmail.com">caique.dev@hotmail.com</a>
         </Text>
       </Flex>
@@ -20,3 +21,4 @@ function HomeProfile() {
 }
 
 export default HomeProfile;
+("");
