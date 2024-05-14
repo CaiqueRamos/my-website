@@ -18,7 +18,7 @@ export function HomeProfileGraduation() {
       >
         FORMAÇÃO
       </Text>
-      <Flex justifyContent={"space-evenly"}>
+      <Flex justifyContent={"space-between"}>
         <Stack w="40vw" mr="40px">
           <Text as="p">
             Sou formado em Análise e Desenvolvimento de Sistemas pela
