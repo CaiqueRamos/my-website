@@ -43,8 +43,8 @@ function HomeProfileApresentation() {
           </Text>
         </Stack>
         <Text as="span" fontWeight={70} lineHeight={"1rem"}>
-          DESENVOLVEDOR DE SOFTWARE COM LIDEROU E FOI LIDERADO POR PESSOAS
-          INCRIVEIS
+          DESENVOLVEDOR DE SOFTWARE COM EXPERIÊNCIA EM LIDERANÇA E COLABORAÇÃO
+          COM PESSOAS INCRÍVEIS.
         </Text>
       </Stack>
       <ScrollIndicator />

@@ -2,7 +2,7 @@ import { Stack, Flex, Text } from "@chakra-ui/layout";
 
 import ProfileResume from "./components/profile-resume/profile-resume";
 import HomeProfileGraduation from "./components/profile-graduation/HomeProfileGraduation";
-import Timeline from "./components/profile-timeline-carousel/Timeline";
+// import Timeline from "./components/profile-timeline-carousel/Timeline";
 
 function HomeProfile() {
   return (
