@@ -28,7 +28,7 @@ function ProfileResume() {
               trabalho em equipe. Minhas principais ferramentas são React e
               Java.
             </Text>
-            <Stack>
+            <Stack width="fit-content">
               <a href="https://www.linkedin.com/in/caique-ramos-601782176/">
                 <Button
                   mt="10px"
@@ -81,7 +81,7 @@ function ProfileResume() {
               eficiente e coesa. Experiência em liderança e trabalho em equipe,
               contribuindo para um ambiente de trabalho dinâmico e inovador.
             </Text>
-            <Stack width="fit-content">
+            <Stack>
               <a href="https://www.linkedin.com/in/caique-ramos-601782176/">
                 <Button
                   w="full"
