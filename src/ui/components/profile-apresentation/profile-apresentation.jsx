@@ -5,9 +5,8 @@ import { useMediaContext } from "../../../hooks/use-media-context.js";
 function HomeProfileApresentation() {
   const { isDesktop } = useMediaContext();
 
-  console.log("isdesktop", isDesktop);
   return isDesktop ? (
-    <Stack h="100vh" alignItems={"center"} justifyContent={"space-between"}>
+    <Stack alignItems={"center"} justifyContent={"space-between"}>
       <Stack></Stack>
       <Stack
         fontFamily={"Bebas Neue, sans-serif"}
@@ -43,8 +42,8 @@ function HomeProfileApresentation() {
           </Text>
         </Stack>
         <Text as="span" fontWeight={70} lineHeight={"1rem"}>
-          DESENVOLVEDOR DE SOFTWARE COM EXPERIÊNCIA EM LIDERANÇA E COLABORAÇÃO
-          COM PESSOAS INCRÍVEIS.
+          DESENVOLVEDOR DE SOFTWARE COM EXPERIÊNCIA EM LIDERANÇA E TRABALHO EM
+          EQUIPE.
         </Text>
       </Stack>
       <ScrollIndicator />
