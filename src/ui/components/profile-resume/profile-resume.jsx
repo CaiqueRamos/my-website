@@ -23,10 +23,10 @@ function ProfileResume() {
           <ScrollingTextAnimation />
           <Stack>
             <Text maxW={"650px"}>
-              Desenvolvedor de soluções digitais, atuando em colaboração
-              multidisciplinar para assegurar uma experiência de usuário
-              eficiente e coesa. Experiência em liderança e trabalho em equipe,
-              contribuindo para um ambiente de trabalho dinâmico e inovador.
+              Atuo de forma multidisciplinar para garantir uma experiência de
+              usuário eficiente e coesa. Tenho experiência em liderança e
+              trabalho em equipe, Minhas principais ferramentas são React e
+              Java.
             </Text>
             <Stack>
               <a href="https://www.linkedin.com/in/caique-ramos-601782176/">
