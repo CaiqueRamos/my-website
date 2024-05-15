@@ -4,7 +4,6 @@ import { useMediaContext } from "../../../hooks/use-media-context";
 
 function ScrollingTextAnimation() {
   const { isDesktop, isSmallHeight } = useMediaContext();
-  console.log("the max", isSmallHeight);
   return isDesktop ? (
     <Stack>
       <Text

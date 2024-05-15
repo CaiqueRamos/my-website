@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-key */
-/* eslint-disable react/prop-types */
 import { MediaProvider } from "../../context/media-context";
 import {
   MEDIA_QUERY_DESKTOP,
