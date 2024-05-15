@@ -22,8 +22,8 @@ function Home() {
 
   const components = [
     <ProfileApresentation />,
-    <ProfileResume />,
     <HomeProfileGraduation />,
+    <ProfileResume />,
     <ContactMe />,
   ];
 

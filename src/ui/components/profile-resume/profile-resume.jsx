@@ -1,10 +1,9 @@
-import { Stack, Text, HStack, VStack } from "@chakra-ui/layout";
+import { Stack, Text, HStack, VStack, Flex } from "@chakra-ui/layout";
 import { FaLinkedin } from "react-icons/fa";
 import { Button } from "@chakra-ui/button";
-import { Image } from "@chakra-ui/react";
+import { Tag, Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import { useMediaContext } from "../../../hooks/use-media-context.js";
 
-import myProfile from "../../assets/my-profile.png";
 import ScrollingTextAnimation from "../scrolling-text-animation/scrolling-text-animation";
 
 function ProfileResume() {
@@ -13,54 +12,275 @@ function ProfileResume() {
     <HStack
       justifyContent={"space-between"}
       alignItems={"normal"}
-      background={"#b9dbff1a"}
-      rounded={"100px"}
-      h={"90vh"}
+      h={"100vh"}
+      w="60vw"
       flexDirection={"row"}
     >
       <VStack justifyContent={"center"} px="5em">
-        <Stack>
+        <Stack minH="25em" minW="43em">
           <ScrollingTextAnimation />
-          <Stack>
-            <Text maxW={"650px"}>
-              Atuo de forma multidisciplinar para garantir uma experiência de
-              usuário eficiente e coesa. Tenho experiência em liderança e
-              trabalho em equipe. Minhas principais ferramentas são React e
-              Java.
-            </Text>
-            <Stack width="fit-content">
-              <a href="https://www.linkedin.com/in/caique-ramos-601782176/">
-                <Button
-                  mt="10px"
-                  w="150px"
-                  leftIcon={<FaLinkedin />}
-                  background="none"
-                  color={"white"}
-                  border="solid 1px white"
-                  _hover={{
-                    bg: "linkedin.500",
-                    color: "white",
-                    boxShadow: "xl",
-                    transform: "scale(1.05)",
-                    transition: "all 0.3s",
-                    border: "none",
-                  }}
-                >
-                  LinkedIn
-                </Button>
-              </a>
-            </Stack>
-          </Stack>
+          <Tabs colorScheme="teal">
+            <TabList>
+              <Tab>Atual</Tab>
+              <Tab>2021 - 2022</Tab>
+              <Tab>2020 - 2021</Tab>
+              <Tab>2018 - 2020</Tab>
+            </TabList>
+
+            <TabPanels>
+              <TabPanel>
+                <Stack maxW={"650px"}>
+                  <Flex justify={"space-between"}>
+                    <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                      Engenheiro de Front-end
+                    </Text>
+                    <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                      Mar 2022 - Presente · 2 anos 3 meses
+                    </Text>
+                  </Flex>
+                  <Text as="span">
+                    Como engenheiro de front-end desde 2022, lidero projetos de
+                    e-commerce e marketplaces, usando React, Angular, PHP, Node
+                    e Next. Faço codificação, integração, teste (unitário,
+                    integração, desempenho, funcional e acessibilidade) e crio
+                    APIs. Também mantenho código legado, planejo operações,
+                    defino metas nas sprints e gerencio pipelines e ambientes
+                    Azure e Oracle Cloud.
+                  </Text>
+                  <Text fontSize={"1em"} color={"white"} mt="20px">
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      React
+                    </Tag>
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Angular
+                    </Tag>
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Node
+                    </Tag>
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      PHP
+                    </Tag>
+                  </Text>
+                </Stack>
+              </TabPanel>
+              <TabPanel>
+                <Stack maxW={"650px"}>
+                  <Flex justify={"space-between"}>
+                    <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                      Frontend & UI developer
+                    </Text>
+                    <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                      Aug 2021 - Mar 2022 · 8 mos
+                    </Text>
+                  </Flex>
+                  <Text as="span">
+                    Desenvolvimento de produtos internos focados no mercado de
+                    CRM e operações comerciais, com o objetivo de otimizar o dia
+                    a dia dos gestores de vendas. Esse trabalho envolve a
+                    criação de soluções que facilitam a gestão de clientes, a
+                    análise de dados de vendas e o acompanhamento de metas,
+                    contribuindo para a eficiência e o sucesso das equipes
+                    comerciais.
+                  </Text>
+                  <Text fontSize={"1em"} color={"white"} mt="20px">
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      React
+                    </Tag>
+
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Node
+                    </Tag>
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Figma
+                    </Tag>
+                  </Text>
+                </Stack>
+              </TabPanel>
+              <TabPanel>
+                <Stack maxW={"650px"}>
+                  <Flex justify={"space-between"}>
+                    <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                      Desenvolvedor Web
+                    </Text>
+                    <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                      Out 2020 - Jul 2021 · 10 mos
+                    </Text>
+                  </Flex>
+                  <Text as="span">
+                    Manutenção e criação de sites institucionais são atividades
+                    essenciais para garantir a presença online de uma empresa ou
+                    organização. Isso envolve desde a atualização de conteúdo e
+                    correção de problemas técnicos até o design e
+                    desenvolvimento de novas páginas. É fundamental para
+                    garantir que o site esteja sempre atualizado, funcionando
+                    corretamente e transmitindo a mensagem desejada aos
+                    visitantes.
+                  </Text>
+                  <Text fontSize={"1em"} color={"white"} mt="20px">
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      PHP
+                    </Tag>
+
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      JavaScript
+                    </Tag>
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Figma
+                    </Tag>
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      WordPress
+                    </Tag>
+                  </Text>
+                </Stack>
+              </TabPanel>
+              <TabPanel>
+                <Stack maxW={"650px"}>
+                  <Flex justify={"space-between"}>
+                    <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                      Arte finalista
+                    </Text>
+                    <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                      jul 2018 - Abr 2020
+                    </Text>
+                  </Flex>
+                  <Text as="span">
+                    A vetorização é um processo essencial na criação de gráficos
+                    de alta qualidade para impressão, web e outras mídias. Ao
+                    transformar imagens bitmap em gráficos vetoriais, baseados
+                    em equações matemáticas, é possível escalá-los para qualquer
+                    tamanho sem perda de qualidade. Por outro lado, a criação de
+                    logos, templates e LPs (landing pages) requer habilidades de
+                    design para conceber elementos visuais que representem
+                    marcas, produtos ou serviços de forma atraente e
+                    profissional. Isso envolve a escolha cuidadosa de cores,
+                    tipografia, layout e elementos gráficos que transmitam a
+                    mensagem desejada e proporcionem uma experiência visual
+                    memorável para os usuários.
+                  </Text>
+                  <Text fontSize={"1em"} color={"white"} mt="20px">
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      React
+                    </Tag>
+
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Node
+                    </Tag>
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Figma
+                    </Tag>
+                  </Text>
+                </Stack>
+              </TabPanel>
+            </TabPanels>
+          </Tabs>
+        </Stack>
+        <Stack mt="20px" display={"flex"} alignItems={"end"} width={"100%"}>
+          <a href="https://www.linkedin.com/in/caique-ramos-601782176/">
+            <Button
+              mt="10px"
+              w="200px"
+              leftIcon={<FaLinkedin />}
+              background="none"
+              color={"white"}
+              border="solid 1px white"
+              _hover={{
+                bg: "linkedin.500",
+                color: "white",
+                boxShadow: "xl",
+                transform: "scale(1.05)",
+                transition: "all 0.3s",
+                border: "none",
+              }}
+            >
+              VER COMPLETO
+            </Button>
+          </a>
         </Stack>
       </VStack>
-      <Stack w="70%">
-        <Image
-          src={myProfile}
-          alt="imagem pessoal"
-          objectFit={"contain"}
-          h={"90vh"}
-        />
-      </Stack>
     </HStack>
   ) : (
     <HStack
@@ -68,19 +288,230 @@ function ProfileResume() {
       alignItems={"normal"}
       background={"#b9dbff1a"}
     >
-      <Stack alignItems={"center"}>
+      <Stack alignItems={"center"} w="full">
         <Stack px="20px" py="70px">
           <ScrollingTextAnimation />
+
           <Stack>
-            <Image src={myProfile} alt="imagem pessoal" objectFit={"contain"} />
-          </Stack>
-          <Stack mt="10px">
-            <Text>
-              Desenvolvedor de soluções digitais, atuando em colaboração
-              multidisciplinar para assegurar uma experiência de usuário
-              eficiente e coesa. Experiência em liderança e trabalho em equipe,
-              contribuindo para um ambiente de trabalho dinâmico e inovador.
+            <Flex justify={"space-between"} mt="20px">
+              <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                Engenheiro de Front-end
+              </Text>
+              <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                2022 - Presente
+              </Text>
+            </Flex>
+            <Text as="span">
+              Como engenheiro de front-end desde 2022, lidero projetos de
+              e-commerce e marketplaces, usando React, Angular, PHP, Node e
+              Next. Faço codificação, integração, teste (unitário, integração,
+              desempenho, funcional e acessibilidade) e crio APIs. Também
+              mantenho código legado, planejo operações, defino metas nas
+              sprints e gerencio pipelines e ambientes Azure e Oracle Cloud.
             </Text>
+            <Text fontSize={"1em"} color={"white"}>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                React
+              </Tag>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                Angular
+              </Tag>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                Node
+              </Tag>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                PHP
+              </Tag>
+            </Text>
+          </Stack>
+
+          <Stack>
+            <Flex justify={"space-between"} mt="20px">
+              <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                Frontend & UI developer
+              </Text>
+              <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                2021 - 2022
+              </Text>
+            </Flex>
+            <Text as="span">
+              Desenvolvimento de produtos internos focados no mercado de CRM e
+              operações comerciais, com o objetivo de otimizar o dia a dia dos
+              gestores de vendas. Esse trabalho envolve a criação de soluções
+              que facilitam a gestão de clientes, a análise de dados de vendas e
+              o acompanhamento de metas, contribuindo para a eficiência e o
+              sucesso das equipes comerciais.
+            </Text>
+            <Text fontSize={"1em"} color={"white"}>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                React
+              </Tag>
+
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                Node
+              </Tag>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                Figma
+              </Tag>
+            </Text>
+          </Stack>
+
+          <Stack>
+            <Flex justify={"space-between"} mt="20px">
+              <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                Desenvolvedor Web
+              </Text>
+              <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                2020 - 2021
+              </Text>
+            </Flex>
+            <Text as="span">
+              Manutenção e criação de sites institucionais são atividades
+              essenciais para garantir a presença online de uma empresa ou
+              organização. Isso envolve desde a atualização de conteúdo e
+              correção de problemas técnicos até o design e desenvolvimento de
+              novas páginas. É fundamental para garantir que o site esteja
+              sempre atualizado, funcionando corretamente e transmitindo a
+              mensagem desejada aos visitantes.
+            </Text>
+            <Text fontSize={"1em"} color={"white"}>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                PHP
+              </Tag>
+
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                JavaScript
+              </Tag>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                Figma
+              </Tag>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                WordPress
+              </Tag>
+            </Text>
+          </Stack>
+
+          <Stack>
+            <Flex justify={"space-between"} mt="20px">
+              <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                Arte finalista
+              </Text>
+              <Text fontSize={"1em"} color={"white"} fontWeight={"bold"}>
+                2018 - 2020
+              </Text>
+            </Flex>
+            <Text as="span">
+              A vetorização é um processo essencial na criação de gráficos de
+              alta qualidade para impressão, web e outras mídias. Ao transformar
+              imagens bitmap em gráficos vetoriais, baseados em equações
+              matemáticas, é possível escalá-los para qualquer tamanho sem perda
+              de qualidade. Por outro lado, a criação de logos, templates e LPs
+              (landing pages) requer habilidades de design para conceber
+              elementos visuais que representem marcas, produtos ou serviços de
+              forma atraente e profissional. Isso envolve a escolha cuidadosa de
+              cores, tipografia, layout e elementos gráficos que transmitam a
+              mensagem desejada e proporcionem uma experiência visual memorável
+              para os usuários.
+            </Text>
+            <Text fontSize={"1em"} color={"white"}>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                React
+              </Tag>
+
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                Node
+              </Tag>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                Figma
+              </Tag>
+            </Text>
+          </Stack>
+
+          <Stack mt="10px" w="full">
             <Stack>
               <a href="https://www.linkedin.com/in/caique-ramos-601782176/">
                 <Button
@@ -88,16 +519,8 @@ function ProfileResume() {
                   mt="10px"
                   leftIcon={<FaLinkedin />}
                   background="none"
-                  color={"white"}
-                  border="solid 1px white"
-                  _hover={{
-                    bg: "linkedin.500",
-                    color: "white",
-                    boxShadow: "xl",
-                    transform: "scale(1.05)",
-                    transition: "all 0.3s",
-                    border: "none",
-                  }}
+                  bg="linkedin.500"
+                  color="white"
                 >
                   LinkedIn
                 </Button>
