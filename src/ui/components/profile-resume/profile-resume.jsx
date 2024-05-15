@@ -8,15 +8,15 @@ import myProfile from "../../assets/my-profile.png";
 import ScrollingTextAnimation from "../scrolling-text-animation/scrolling-text-animation";
 
 function ProfileResume() {
-  const { isDesktop, isMiddle } = useMediaContext();
+  const { isDesktop } = useMediaContext();
   return isDesktop ? (
     <HStack
-      justifyContent={isMiddle ? "center" : "space-between"}
+      justifyContent={"space-between"}
       alignItems={"normal"}
       background={"#b9dbff1a"}
       rounded={"100px"}
-      minH={isMiddle ? "50em" : "40em"}
-      flexDirection={isMiddle ? "column" : "row"}
+      h={"90vh"}
+      flexDirection={"row"}
     >
       <VStack justifyContent={"center"} px="5em">
         <Stack>
@@ -54,8 +54,13 @@ function ProfileResume() {
         </Stack>
       </VStack>
       <Stack>
-        <VStack h="20em" w="40em" display={isMiddle && "none"}>
-          <Image src={myProfile} alt="imagem pessoal" objectFit={"contain"} />
+        <VStack >
+          <Image
+            src={myProfile}
+            alt="imagem pessoal"
+            objectFit={"contain"}
+            h={"90vh"}
+          />
         </VStack>
       </Stack>
     </HStack>

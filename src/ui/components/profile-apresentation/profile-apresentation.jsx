@@ -12,10 +12,10 @@ function HomeProfileApresentation() {
         fontFamily={"Bebas Neue, sans-serif"}
         fontWeight={700}
         textAlign={"center"}
-        lineHeight={"15rem"}
+        lineHeight={"30vh"}
         color={"white"}
       >
-        <Stack as="h1" fontSize={"17em"} cursor={"pointer"}>
+        <Stack as="h1" fontSize={"30vh"} cursor={"pointer"}>
           <Text
             _hover={{
               color: "black",
@@ -41,7 +41,7 @@ function HomeProfileApresentation() {
             Ramos
           </Text>
         </Stack>
-        <Text as="span" fontWeight={70} lineHeight={"1rem"}>
+        <Text as="span" fontWeight={70} lineHeight={"1rem"} fontSize={"2vh"}>
           DESENVOLVEDOR DE SOFTWARE COM EXPERIÊNCIA EM LIDERANÇA E TRABALHO EM
           EQUIPE.
         </Text>

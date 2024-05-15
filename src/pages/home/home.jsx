@@ -4,7 +4,7 @@ import { MediaProvider } from "../../context/media-context";
 import {
   MEDIA_QUERY_DESKTOP,
   MEDIA_QUERY_MOBILE,
-  MEDIA_QUERY_MIDDLE,
+  MEDIA_QUERY_SMALL_HEIGHT,
 } from "../../constants/media-provider";
 import { HStack, Stack, useMediaQuery } from "@chakra-ui/react";
 import ProfileApresentation from "../../ui/components/profile-apresentation/profile-apresentation";
@@ -14,12 +14,12 @@ import ContactMe from "../../ui/components/profile-contact/profile-contact";
 import ProfileResume from "../../ui/components/profile-resume/profile-resume";
 
 function Home() {
-  const [isMobile, isDesktop, isMiddle] = useMediaQuery([
+  const [isMobile, isDesktop, isSmallHeight] = useMediaQuery([
     MEDIA_QUERY_MOBILE,
     MEDIA_QUERY_DESKTOP,
-    MEDIA_QUERY_MIDDLE,
+    MEDIA_QUERY_SMALL_HEIGHT,
   ]);
-  const mediaType = { isMobile, isDesktop, isMiddle };
+  const mediaType = { isMobile, isDesktop, isSmallHeight };
 
   const components = [
     <ProfileApresentation />,

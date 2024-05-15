@@ -25,7 +25,7 @@ const ScrollIndicator = () => (
     animation={`${scrollAnimation} 0.8s infinite`}
     cursor="pointer"
   >
-    <Icon as={MdKeyboardArrowDown} boxSize={50} color="gray.400" />
+    <Icon as={MdKeyboardArrowDown} boxSize={"7vh"} color="gray.400" />
   </Box>
 );
 

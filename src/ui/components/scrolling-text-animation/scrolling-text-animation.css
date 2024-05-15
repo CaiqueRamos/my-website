@@ -22,12 +22,12 @@
     position: absolute;
     top: 0;
     animation: change 8s infinite;
+    line-height: '1em';
   }
   
   .content__container__list__item {
-    font-size: 4rem;
     color: white;
-    font-size: 7rem;
+    font-size: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   

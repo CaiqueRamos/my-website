@@ -10,14 +10,13 @@ function ScrollingTextAnimation() {
         as="h1"
         color={"white"}
         fontFamily={"Bebas Neue, sans-serif"}
-        fontSize={"17em"}
-        lineHeight={"120px"}
+        fontSize={"11em"}
+        lineHeight={"90px"}
       >
         {"EU SOU"}
       </Text>
       <Stack
-        width="600px"
-        height="150px"
+        height="4em"
         overflow=" hidden"
         position="relative"
       >
