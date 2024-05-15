@@ -3,7 +3,8 @@ import "./scrolling-text-animation.css";
 import { useMediaContext } from "../../../hooks/use-media-context";
 
 function ScrollingTextAnimation() {
-  const { isDesktop } = useMediaContext();
+  const { isDesktop, isSmallHeight } = useMediaContext();
+  console.log("the max", isSmallHeight);
   return isDesktop ? (
     <Stack>
       <Text
@@ -11,22 +12,21 @@ function ScrollingTextAnimation() {
         color={"white"}
         fontFamily={"Bebas Neue, sans-serif"}
         fontSize={"11em"}
-        lineHeight={"90px"}
+        lineHeight={isSmallHeight ? "120px" : "90px"}
+        marginLift="-5px"
       >
         {"EU SOU"}
       </Text>
-      <Stack
-        height="4em"
-        overflow=" hidden"
-        position="relative"
-      >
-        <ul className="content__container__list">
-          <h1 className="content__container__list__item">BACK-END</h1>
-          <h1 className="content__container__list__item">FRONT-END</h1>
-          <h1 className="content__container__list__item">FULL-STACK</h1>
-          <h1 className="content__container__list__item">DEVELOPER</h1>
-        </ul>
-      </Stack>
+      {!isSmallHeight && (
+        <Stack height="4em" overflow=" hidden" position="relative">
+          <ul className="content__container__list">
+            <h1 className="content__container__list__item">BACK-END</h1>
+            <h1 className="content__container__list__item">FRONT-END</h1>
+            <h1 className="content__container__list__item">FULL-STACK</h1>
+            <h1 className="content__container__list__item">DEVELOPER</h1>
+          </ul>
+        </Stack>
+      )}
     </Stack>
   ) : (
     <Stack>

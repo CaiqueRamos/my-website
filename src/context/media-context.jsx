@@ -4,7 +4,7 @@ import React from "react";
 const INITIAL_MEDIA_TYPE = {
   isMobile: false,
   isDesktop: false,
-  isMiddle: false,
+  isSmallHeight: false,
 };
 
 export const MediaContext = React.createContext(INITIAL_MEDIA_TYPE);

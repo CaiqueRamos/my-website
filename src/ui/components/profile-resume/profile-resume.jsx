@@ -53,15 +53,13 @@ function ProfileResume() {
           </Stack>
         </Stack>
       </VStack>
-      <Stack>
-        <VStack >
-          <Image
-            src={myProfile}
-            alt="imagem pessoal"
-            objectFit={"contain"}
-            h={"90vh"}
-          />
-        </VStack>
+      <Stack w="70%">
+        <Image
+          src={myProfile}
+          alt="imagem pessoal"
+          objectFit={"contain"}
+          h={"90vh"}
+        />
       </Stack>
     </HStack>
   ) : (
@@ -83,7 +81,7 @@ function ProfileResume() {
               eficiente e coesa. Experiência em liderança e trabalho em equipe,
               contribuindo para um ambiente de trabalho dinâmico e inovador.
             </Text>
-            <Stack>
+            <Stack width="fit-content">
               <a href="https://www.linkedin.com/in/caique-ramos-601782176/">
                 <Button
                   w="full"
