@@ -38,7 +38,7 @@ function ScrollingTextAnimation() {
         fontFamily={"Bebas Neue, sans-serif"}
         fontSize={"8rem"}
         lineHeight={"70px"}
-        marginLeft={"-5px"}
+        ml={"-5px"}
       >
         {"EU SOU"}
       </Text>

@@ -25,7 +25,7 @@ function ProfileResume() {
             <Text maxW={"650px"}>
               Atuo de forma multidisciplinar para garantir uma experiência de
               usuário eficiente e coesa. Tenho experiência em liderança e
-              trabalho em equipe, Minhas principais ferramentas são React e
+              trabalho em equipe. Minhas principais ferramentas são React e
               Java.
             </Text>
             <Stack>
