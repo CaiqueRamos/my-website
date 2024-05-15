@@ -41,7 +41,13 @@ function HomeProfileApresentation() {
             Ramos
           </Text>
         </Stack>
-        <Text as="span" fontWeight={70} lineHeight={"1rem"} fontSize={"2vh"}>
+        <Text
+          fontFamily="system-ui"
+          as="span"
+          fontWeight={100}
+          lineHeight={"1rem"}
+          fontSize={"1.7vh"}
+        >
           DESENVOLVEDOR DE SOFTWARE COM EXPERIÊNCIA EM LIDERANÇA E TRABALHO EM
           EQUIPE.
         </Text>
