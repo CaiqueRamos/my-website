@@ -98,13 +98,12 @@ function ProfileResume() {
                     </Text>
                   </Flex>
                   <Text as="span">
-                    Desenvolvimento de produtos internos focados no mercado de
-                    CRM e operações comerciais, com o objetivo de otimizar o dia
-                    a dia dos gestores de vendas. Esse trabalho envolve a
-                    criação de soluções que facilitam a gestão de clientes, a
-                    análise de dados de vendas e o acompanhamento de metas,
-                    contribuindo para a eficiência e o sucesso das equipes
-                    comerciais.
+                    Desenvolvi produtos internos focados no mercado de CRM e
+                    operações comerciais, com o objetivo de otimizar o dia a dia
+                    dos gestores de vendas. Esse trabalho envolveu a criação de
+                    soluções que facilitam a gestão de clientes, a análise de
+                    dados de vendas e o acompanhamento de metas, contribuindo
+                    para a eficiência e o sucesso das equipes comerciais.
                   </Text>
                   <Text fontSize={"1em"} color={"white"} mt="20px">
                     <Tag
@@ -149,14 +148,13 @@ function ProfileResume() {
                     </Text>
                   </Flex>
                   <Text as="span">
-                    Manutenção e criação de sites institucionais são atividades
-                    essenciais para garantir a presença online de uma empresa ou
-                    organização. Isso envolve desde a atualização de conteúdo e
-                    correção de problemas técnicos até o design e
-                    desenvolvimento de novas páginas. É fundamental para
-                    garantir que o site esteja sempre atualizado, funcionando
-                    corretamente e transmitindo a mensagem desejada aos
-                    visitantes.
+                    Trabalhei com Manutenção e criação de sites institucionais
+                    para garantir a presença online de empresas ou organizações.
+                    Isso envolveu desde a atualização de conteúdos e correção de
+                    problemas técnicos até o design e desenvolvimento de novas
+                    páginas. Foi fundamental garantir que o site esteja sempre
+                    atualizado, funcionando corretamente e transmitindo a
+                    mensagem desejada aos visitantes.
                   </Text>
                   <Text fontSize={"1em"} color={"white"} mt="20px">
                     <Tag
@@ -210,18 +208,11 @@ function ProfileResume() {
                     </Text>
                   </Flex>
                   <Text as="span">
-                    A vetorização é um processo essencial na criação de gráficos
-                    de alta qualidade para impressão, web e outras mídias. Ao
-                    transformar imagens bitmap em gráficos vetoriais, baseados
-                    em equações matemáticas, é possível escalá-los para qualquer
-                    tamanho sem perda de qualidade. Por outro lado, a criação de
-                    logos, templates e LPs (landing pages) requer habilidades de
-                    design para conceber elementos visuais que representem
-                    marcas, produtos ou serviços de forma atraente e
-                    profissional. Isso envolve a escolha cuidadosa de cores,
-                    tipografia, layout e elementos gráficos que transmitam a
-                    mensagem desejada e proporcionem uma experiência visual
-                    memorável para os usuários.
+                    Durante meu trabalho, pude realizar projetos de UI/UX, além
+                    de desenvolver landing pages e fazer vetorizações. Essas
+                    experiências contribuíram significativamente para o meu
+                    crescimento profissional e para aprimorar minhas habilidades
+                    nessas áreas.
                   </Text>
                   <Text fontSize={"1em"} color={"white"} mt="20px">
                     <Tag
@@ -359,11 +350,11 @@ function ProfileResume() {
               </Text>
             </Flex>
             <Text as="span">
-              Desenvolvimento de produtos internos focados no mercado de CRM e
-              operações comerciais, com o objetivo de otimizar o dia a dia dos
-              gestores de vendas. Esse trabalho envolve a criação de soluções
-              que facilitam a gestão de clientes, a análise de dados de vendas e
-              o acompanhamento de metas, contribuindo para a eficiência e o
+              Desenvolvi produtos internos focados no mercado de CRM e operações
+              comerciais, com o objetivo de otimizar o dia a dia dos gestores de
+              vendas. Esse trabalho envolveu a criação de soluções que facilitam
+              a gestão de clientes, a análise de dados de vendas e o
+              acompanhamento de metas, contribuindo para a eficiência e o
               sucesso das equipes comerciais.
             </Text>
             <Text fontSize={"1em"} color={"white"}>
@@ -408,13 +399,13 @@ function ProfileResume() {
               </Text>
             </Flex>
             <Text as="span">
-              Manutenção e criação de sites institucionais são atividades
-              essenciais para garantir a presença online de uma empresa ou
-              organização. Isso envolve desde a atualização de conteúdo e
-              correção de problemas técnicos até o design e desenvolvimento de
-              novas páginas. É fundamental para garantir que o site esteja
-              sempre atualizado, funcionando corretamente e transmitindo a
-              mensagem desejada aos visitantes.
+              Trabalhei com Manutenção e criação de sites institucionais para
+              garantir a presença online de empresas ou organizações. Isso
+              envolveu desde a atualização de conteúdo e correção de problemas
+              técnicos até o design e desenvolvimento de novas páginas. Foi
+              fundamental garantir que o site esteja sempre atualizado,
+              funcionando corretamente e transmitindo a mensagem desejada aos
+              visitantes.
             </Text>
             <Text fontSize={"1em"} color={"white"}>
               <Tag
@@ -467,17 +458,10 @@ function ProfileResume() {
               </Text>
             </Flex>
             <Text as="span">
-              A vetorização é um processo essencial na criação de gráficos de
-              alta qualidade para impressão, web e outras mídias. Ao transformar
-              imagens bitmap em gráficos vetoriais, baseados em equações
-              matemáticas, é possível escalá-los para qualquer tamanho sem perda
-              de qualidade. Por outro lado, a criação de logos, templates e LPs
-              (landing pages) requer habilidades de design para conceber
-              elementos visuais que representem marcas, produtos ou serviços de
-              forma atraente e profissional. Isso envolve a escolha cuidadosa de
-              cores, tipografia, layout e elementos gráficos que transmitam a
-              mensagem desejada e proporcionem uma experiência visual memorável
-              para os usuários.
+              Durante meu trabalho, pude realizar projetos de UI/UX, além de
+              desenvolver landing pages e fazer vetorizações. Essas experiências
+              contribuíram significativamente para o meu crescimento
+              profissional e para aprimorar minhas habilidades nessas áreas.
             </Text>
             <Text fontSize={"1em"} color={"white"}>
               <Tag
