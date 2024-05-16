@@ -11,6 +11,7 @@ import VerticalCarousel from "../../ui/components/vertical-carousel/vertical-car
 import HomeProfileGraduation from "../../ui/components/profile-graduation/HomeProfileGraduation";
 import ContactMe from "../../ui/components/profile-contact/profile-contact";
 import ProfileResume from "../../ui/components/profile-resume/profile-resume";
+import HomeProfileProjects from "../../ui/components/profile-projects/profile-projects";
 
 function Home() {
   const [isMobile, isDesktop, isSmallHeight] = useMediaQuery([
@@ -24,6 +25,7 @@ function Home() {
     <ProfileApresentation />,
     <HomeProfileGraduation />,
     <ProfileResume />,
+    <HomeProfileProjects />,
     <ContactMe />,
   ];
 
@@ -44,6 +46,7 @@ function Home() {
           <ProfileApresentation />
           <ProfileResume />
           <HomeProfileGraduation />
+          <HomeProfileProjects />
           <ContactMe />
         </Stack>
       )}
