@@ -40,12 +40,12 @@ function ProfileResume() {
                   </Flex>
                   <Text as="span">
                     Como engenheiro de front-end desde 2022, lidero projetos de
-                    e-commerce e marketplaces, usando React, Angular, PHP, Node
-                    e Next. Faço codificação, integração, teste (unitário,
-                    integração, desempenho, funcional e acessibilidade) e crio
-                    APIs. Também mantenho código legado, planejo operações,
-                    defino metas nas sprints e gerencio pipelines e ambientes
-                    Azure e Oracle Cloud.
+                    e-commerce e marketplaces, usando React, Node e Next. Faço
+                    codificação, integração, teste (unitário, integração,
+                    desempenho, funcional e acessibilidade) e crio APIs. Também
+                    mantenho código legado, planejo operações, defino metas nas
+                    sprints e gerencio pipelines e ambientes Azure e Oracle
+                    Cloud.
                   </Text>
                   <Text fontSize={"1em"} color={"white"} mt="20px">
                     <Tag
@@ -64,7 +64,7 @@ function ProfileResume() {
                       mr="10px"
                       color={"white"}
                     >
-                      Angular
+                      Typescript
                     </Tag>
                     <Tag
                       size={"md"}
@@ -73,7 +73,7 @@ function ProfileResume() {
                       mr="10px"
                       color={"white"}
                     >
-                      Node
+                      Javascript
                     </Tag>
                     <Tag
                       size={"md"}
@@ -82,7 +82,17 @@ function ProfileResume() {
                       mr="10px"
                       color={"white"}
                     >
-                      PHP
+                      GraphQL
+                    </Tag>
+
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Next
                     </Tag>
                   </Text>
                 </Stack>
@@ -115,6 +125,24 @@ function ProfileResume() {
                     >
                       React
                     </Tag>
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Typescript
+                    </Tag>
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Javascript
+                    </Tag>
 
                     <Tag
                       size={"md"}
@@ -124,15 +152,6 @@ function ProfileResume() {
                       color={"white"}
                     >
                       Node
-                    </Tag>
-                    <Tag
-                      size={"md"}
-                      variant="subtle"
-                      bgColor="teal"
-                      mr="10px"
-                      color={"white"}
-                    >
-                      Figma
                     </Tag>
                   </Text>
                 </Stack>
@@ -164,17 +183,7 @@ function ProfileResume() {
                       mr="10px"
                       color={"white"}
                     >
-                      PHP
-                    </Tag>
-
-                    <Tag
-                      size={"md"}
-                      variant="subtle"
-                      bgColor="teal"
-                      mr="10px"
-                      color={"white"}
-                    >
-                      JavaScript
+                      Javascript
                     </Tag>
                     <Tag
                       size={"md"}
@@ -183,7 +192,16 @@ function ProfileResume() {
                       mr="10px"
                       color={"white"}
                     >
-                      Figma
+                      JQuery
+                    </Tag>
+                    <Tag
+                      size={"md"}
+                      variant="subtle"
+                      bgColor="teal"
+                      mr="10px"
+                      color={"white"}
+                    >
+                      Typescript
                     </Tag>
                     <Tag
                       size={"md"}
@@ -222,17 +240,7 @@ function ProfileResume() {
                       mr="10px"
                       color={"white"}
                     >
-                      React
-                    </Tag>
-
-                    <Tag
-                      size={"md"}
-                      variant="subtle"
-                      bgColor="teal"
-                      mr="10px"
-                      color={"white"}
-                    >
-                      Node
+                      Corel
                     </Tag>
                     <Tag
                       size={"md"}
@@ -294,11 +302,11 @@ function ProfileResume() {
             </Flex>
             <Text as="span">
               Como engenheiro de front-end desde 2022, lidero projetos de
-              e-commerce e marketplaces, usando React, Angular, PHP, Node e
-              Next. Faço codificação, integração, teste (unitário, integração,
-              desempenho, funcional e acessibilidade) e crio APIs. Também
-              mantenho código legado, planejo operações, defino metas nas
-              sprints e gerencio pipelines e ambientes Azure e Oracle Cloud.
+              e-commerce e marketplaces, usando React, Node e Next. Faço
+              codificação, integração, teste (unitário, integração, desempenho,
+              funcional e acessibilidade) e crio APIs. Também mantenho código
+              legado, planejo operações, defino metas nas sprints e gerencio
+              pipelines e ambientes Azure e Oracle Cloud.
             </Text>
             <Text fontSize={"1em"} color={"white"}>
               <Tag
@@ -317,7 +325,7 @@ function ProfileResume() {
                 mr="10px"
                 color={"white"}
               >
-                Angular
+                Typescript
               </Tag>
               <Tag
                 size={"md"}
@@ -335,7 +343,16 @@ function ProfileResume() {
                 mr="10px"
                 color={"white"}
               >
-                PHP
+                GraphQL
+              </Tag>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                Next.js
               </Tag>
             </Text>
           </Stack>
@@ -384,7 +401,16 @@ function ProfileResume() {
                 mr="10px"
                 color={"white"}
               >
-                Figma
+                Javascript
+              </Tag>
+              <Tag
+                size={"md"}
+                variant="subtle"
+                bgColor="teal"
+                mr="10px"
+                color={"white"}
+              >
+                Typescript
               </Tag>
             </Text>
           </Stack>
@@ -415,7 +441,7 @@ function ProfileResume() {
                 mr="10px"
                 color={"white"}
               >
-                PHP
+                Typescript
               </Tag>
 
               <Tag
@@ -425,7 +451,7 @@ function ProfileResume() {
                 mr="10px"
                 color={"white"}
               >
-                JavaScript
+                JQuery
               </Tag>
               <Tag
                 size={"md"}
@@ -434,8 +460,9 @@ function ProfileResume() {
                 mr="10px"
                 color={"white"}
               >
-                Figma
+                Javascript
               </Tag>
+
               <Tag
                 size={"md"}
                 variant="subtle"
@@ -471,18 +498,9 @@ function ProfileResume() {
                 mr="10px"
                 color={"white"}
               >
-                React
+                Corel
               </Tag>
 
-              <Tag
-                size={"md"}
-                variant="subtle"
-                bgColor="teal"
-                mr="10px"
-                color={"white"}
-              >
-                Node
-              </Tag>
               <Tag
                 size={"md"}
                 variant="subtle"

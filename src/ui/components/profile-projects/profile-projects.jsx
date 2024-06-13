@@ -38,8 +38,8 @@ export function HomeProfileProjects() {
       content: `Na minha atuação como desenvolvedor Front-end, fui responsável 
       por liderar equipes na implementação de projetos e features para o 
       e-commerce nagem.com.br, além de colaborar em projetos internos. 
-      Durante esse período, utilizei tecnologias como React, Next, Angular e 
-      PHP para garantir um desenvolvimento eficiente e alinhado com as necessidades 
+      Durante esse período, utilizei tecnologias como React, Next, Typescript, e GraphQLSenior. Garantindo
+       um desenvolvimento eficiente e alinhado com as necessidades 
       do negócio. Minha liderança e expertise foram fundamentais para o sucesso desses projetos, 
       contribuindo diretamente para a melhoria da experiência do usuário e o crescimento do negócio.`,
     },
